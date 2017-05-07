@@ -1,0 +1,15 @@
+(+,4,5) - (-,2,5) Results in (+,6,5)
+(+,0,5) ! Results in Not A Number
+(+,5,3) + (+,2,6) R Results in (+,2,1)
+(+,5,3) + (+,3,5) R Results in (+,34,15)
+(+,5,3) + (-,2,6) R Results in (+,4,3)
+(-,2,3) * (-,8,9)  Results in (+,16,27)
+(-,2,3) * (+,8,9) Results in (-,16,27)
+(+,2,7) * (-,11,9) Results in (-,22,63)
+(+,2,7) :: -2 Results in (+,49,4)
+(+,2,7) :: 4 Results in (+,16,2401)
+(-,2,7) :: 5 Results in (-,32,16807)
+(-,22,7) :: 4 Results in (+,234256,2401)
+(-,1,2) + (+,20,40)  Results in (+,0,40)
+(-,1,2) + (+,20,40) R Results in (+,0,1)
+(-,0,1) * (+,0,5) R Results in Not A Number
